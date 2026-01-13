@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import { motion } from "framer-motion"
 import { useGlobal } from "../context/GlobalContext"
 
 export default function NavPill() {
@@ -6,23 +7,56 @@ export default function NavPill() {
 
   return (
     <div className="pill main-pill">
-        <NavLink 
-            to="/"
-            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
-            {t("home")}
-        </NavLink>
+      <NavLink
+        to="/"
+        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+        {({ isActive }) => (
+          <>
+            {isActive && (
+              <motion.div
+                layoutId="active-pill"
+                className="active-pill-bg"
+                transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+              />
+            )}
+            <span style={{ position: "relative", zIndex: 1 }}>{t("home")}</span>
+          </>
+        )}
+      </NavLink>
 
-        <NavLink
-            to="/projects"
-            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
-            {t("projects")}
-        </NavLink>
+      <NavLink
+        to="/projects"
+        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+        {({ isActive }) => (
+          <>
+            {isActive && (
+              <motion.div
+                layoutId="active-pill"
+                className="active-pill-bg"
+                transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+              />
+            )}
+            <span style={{ position: "relative", zIndex: 1 }}>{t("projects")}</span>
+          </>
+        )}
+      </NavLink>
 
-        <NavLink
-            to="/contact"
-            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
-            {t("contact")}
-        </NavLink>
+      <NavLink
+        to="/contact"
+        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+        {({ isActive }) => (
+          <>
+            {isActive && (
+              <motion.div
+                layoutId="active-pill"
+                className="active-pill-bg"
+                transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+              />
+            )}
+            <span style={{ position: "relative", zIndex: 1 }}>{t("contact")}</span>
+          </>
+        )}
+      </NavLink>
     </div>
   )
 }
