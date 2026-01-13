@@ -1,1 +1,31 @@
+.page {
+  min-height: 100vh;
+  padding-top: 120px; /* deja espacio para la Dynamic Island */
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
 
+/* Creacion de las variables para los themes */
+body.dark-mode {
+  --bg: #0b0b0e;
+  --text: #ffffff;
+  --subtext: rgba(255,255,255,0.7);
+  --pill-bg: rgba(20,20,20,0.7);
+}
+
+body.light-mode {
+  --bg: #f6f6f8;
+  --text: #111111;
+  --subtext: rgba(0,0,0,0.6);
+  --pill-bg: rgba(255,255,255,0.7);
+}
+
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.pill,
+.page,
+.hero,
+.subtitle {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}

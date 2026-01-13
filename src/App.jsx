@@ -1,11 +1,14 @@
 import { use, useState } from 'react'
+import NavBar from "./components/Navbar"
+import { Routes, Route } from 'react-router-dom'
+import Home from "./pages/Home"
+import Projects from "./pages/Projects"
+import Contact from "./pages/Contact"
 import './App.css'
 
+
 function App() {
-  // Languages english (en) y español (es)
-  const [lang, setLang] = useState("en")
-  // Dark theme and light theme
-  const [theme, setTheme] = useState("dark")
+  
 
   return (
     <>
