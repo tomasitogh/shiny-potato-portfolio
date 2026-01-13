@@ -12,6 +12,10 @@ body.dark-mode {
   --text: #ffffff;
   --subtext: rgba(255, 255, 255, 0.7);
   --pill-bg: rgba(20, 20, 20, 0.7);
+
+  --pill-text: var(--text);
+  --nav-active: var(--text);
+  --nav-inactive: var(--subtext);
 }
 
 body.light-mode {
@@ -19,6 +23,10 @@ body.light-mode {
   --text: #111111;
   --subtext: rgba(0, 0, 0, 0.6);
   --pill-bg: rgba(255, 255, 255, 0.7);
+
+  --pill-text: var(--text);
+  --nav-active: var(--text);
+  --nav-inactive: var(--subtext);
 }
 
 body {
