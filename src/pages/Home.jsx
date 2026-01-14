@@ -1,8 +1,13 @@
 import { useGlobal } from "../context/GlobalContext"
+import { Link } from "react-router-dom"
 import "./Home.css"
 
 export default function Home() {
-  const { t } = useGlobal()
+  const { t, lang } = useGlobal()
+
+  const cvFile = lang === 'es'
+    ? '/cv_GonzalezHumphreys_es.pdf'
+    : '/cv_GonzalezHumphreys_en.pdf';
 
   return (
     <main className="page home-container">
@@ -11,8 +16,18 @@ export default function Home() {
         {t("homePage.description")}
       </p>
       <div className="home-buttons">
-        <button className="btn-primary">Button 1</button>
-        <button className="btn-secondary">Button 2</button>
+        <Link to="/projects" className="btn-primary">
+          {t("homePage.projectsButton")}
+        </Link>
+        <a
+          href={cvFile}
+          download
+          className="btn-secondary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          📥 {t("homePage.cvButton")}
+        </a>
       </div>
     </main>
   )

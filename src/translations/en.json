@@ -1,11 +1,21 @@
 {
     "homePage": {
         "title": "Tomás Gonzalez Humphreys",
-        "description": "Software Engineer with experience building data-intensive and full-stack systems. I currently work at Deloitte developing internal tools that process millions of financial records using Python, SQL, and DuckDB. I also build web applications with Java (Spring Boot) and React, focusing on clean architecture, correctness, and maintainability. I enjoy working in small, high-ownership teams where engineering quality and product impact matter."
+        "description": "Software Engineer with experience building data-intensive and full-stack systems. I currently work at Deloitte developing internal tools that process millions of financial records using Python, SQL, and DuckDB. I also build web applications with Java (Spring Boot) and React, focusing on clean architecture, correctness, and maintainability. I am looking for a team-based job with real ownership and a focus on product.",
+        "projectsButton": "View my projects",
+        "cvButton": "Download CV"
     },
     "about": {
         "title": "About Me",
-        "description": "Backend-oriented Software Engineer with experience building data-intensive and full-stack systems. I currently work at Deloitte developing internal tools that process millions of financial records using Python, SQL, and DuckDB."
+        "description": "Software Engineer with experience analyzing, developing, and validating software solutions across backend and data-intensive environments. Strong background in Python, Java, and React, with hands-on experience identifying logical errors, performance issues, and data inconsistencies. Able to clearly explain technical concepts in written Spanish and English, with a strong focus on code correctness, reliability, and structured feedback. Comfortable collaborating with non-technical stakeholders. Presented technical solutions and data outputs to regional Tax leadership at a Big Tech client, explaining data logic, validations, and results.",
+        "nextSteps": {
+            "title": "Next steps",
+            "description": "I’m currently around 60% through my Computer Science Engineering degree, balancing academic challenges with real-world experience building time-saving software in my current role. I’m actively strengthening my backend skills with Java and Spring Boot, aiming to grow as a Full Stack Engineer capable of building robust and scalable systems."
+        },
+        "jobOpportunities": {
+            "title": "Job Opportunities",
+            "description": "For my next role, I’m especially interested in joining an engineering team where collaboration, technical discussions, and shared ownership are part of the daily work. I value environments where engineers learn from each other through reviews, design decisions, and collective problem-solving. I’m looking for remote opportunities with flexible or asynchronous schedules."
+        }
     },
     "nav": {
         "home": "Home",

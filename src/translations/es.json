@@ -1,11 +1,21 @@
 {
     "homePage": {
         "title": "Tomás Gonzalez Humphreys",
-        "description": "Ingeniero de software con experiencia en sistemas full-stack y procesamiento de datos. Actualmente trabajo en Deloitte desarrollando herramientas internas que procesan millones de registros contables usando Python, Pandas, SQL y DuckDB. También construyo aplicaciones web con Java (Spring Boot) y React, enfocándome en arquitectura limpia, confiabilidad y mantenibilidad. Estoy buscando trabajar en equipos, con ownership real y foco en producto."
+        "description": "Ingeniero de software con experiencia en sistemas full-stack y procesamiento de datos. Actualmente trabajo en Deloitte desarrollando herramientas internas que procesan millones de registros contables usando Python, Pandas, SQL y DuckDB. También construyo aplicaciones web con Java (Spring Boot) y React, enfocándome en arquitectura limpia, confiabilidad y mantenibilidad. Estoy buscando trabajar en equipos, con ownership real y foco en producto.",
+        "projectsButton": "Ver mis proyectos",
+        "cvButton": "Descargar CV"
     },
     "about": {
         "title": "Sobre mí",
-        "description": "Ingeniero de software orientado a backend, con experiencia en sistemas full-stack y procesamiento de datos. Actualmente trabajo en Deloitte desarrollando herramientas internas que procesan millones de registros financieros usando Python, SQL y DuckDB."
+        "description": "Software Engineer con experiencia en el desarrollo de herramientas internas de alto impacto, procesando millones de registros y optimizando flujos de datos críticos en el sector contable en Deloitte. Soy un Software Engineer con foco en backend con Java y Spring Boot, diseño de APIs, bases de datos relacionales y frontend moderno con React. Perfil colaborativo, orientado a producto y con mentalidad de ownership. Tengo ingles fluido, nivel B2, el cual me permite comunicarme fluidamente.",
+        "nextSteps": {
+            "title": "Próximos pasos",
+            "description": "Actualmente me encuentro cursando la carrera de Ingeniería en Informática, con aproximadamente un 60% de avance, combinando los desafíos académicos con experiencia profesional desarrollando software que genera impacto real en mi equipo de trabajo. Estoy enfocado en seguir profundizando mis conocimientos en Java y Spring Boot, con el objetivo de consolidar un perfil Full Stack orientado a sistemas robustos y escalables."
+        },
+        "jobOpportunities": {
+            "title": "Oportunidades Laborales",
+            "description": "En esta nueva etapa profesional, busco incorporarme a un equipo de ingeniería donde el trabajo colaborativo, el intercambio técnico y el aprendizaje entre pares sean parte del día a día. Me interesa trabajar en entornos remotos, idealmente con cierta flexibilidad horaria, que permitan un buen equilibrio entre trabajo, estudio y crecimiento profesional."
+        }
     },
     "nav": {
         "home": "Inicio",
