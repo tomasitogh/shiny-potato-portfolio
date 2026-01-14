@@ -1,13 +1,16 @@
 .navbar-container {
   position: fixed;
   top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  width: 100%;
+  padding: 0 40px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 16px;
   z-index: 1000;
   pointer-events: none;
+  box-sizing: border-box;
 }
 
 .pill {
@@ -39,6 +42,7 @@
 .main-pill {
   padding: 5px 6px;
   height: 48px;
+  width: 265px;
 }
 
 .nav-link {
@@ -60,7 +64,6 @@
 
 .nav-link.active {
   color: var(--nav-active);
-  font-weight: 600;
 }
 
 .active-pill-bg {
@@ -68,7 +71,7 @@
   inset: 0;
   background: var(--bg);
   /* "Cutout" look or pill within pill */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);
   /* Floating effect */
   border-radius: 99px;
   z-index: -1;
