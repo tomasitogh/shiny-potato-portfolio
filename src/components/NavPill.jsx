@@ -24,6 +24,25 @@ export default function NavPill() {
         )}
       </NavLink>
 
+
+
+      <NavLink
+        to="/about"
+        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+        {({ isActive }) => (
+          <>
+            {isActive && (
+              <motion.div
+                layoutId="active-pill"
+                className="active-pill-bg"
+                transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+              />
+            )}
+            <span style={{ position: "relative", zIndex: 1 }}>{t("nav.about")}</span>
+          </>
+        )}
+      </NavLink>
+
       <NavLink
         to="/projects"
         className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
@@ -37,6 +56,23 @@ export default function NavPill() {
               />
             )}
             <span style={{ position: "relative", zIndex: 1 }}>{t("nav.projects")}</span>
+          </>
+        )}
+      </NavLink>
+
+      <NavLink
+        to="/experience"
+        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+        {({ isActive }) => (
+          <>
+            {isActive && (
+              <motion.div
+                layoutId="active-pill"
+                className="active-pill-bg"
+                transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+              />
+            )}
+            <span style={{ position: "relative", zIndex: 1 }}>{t("nav.experience")}</span>
           </>
         )}
       </NavLink>
@@ -57,6 +93,6 @@ export default function NavPill() {
           </>
         )}
       </NavLink>
-    </div>
+    </div >
   )
 }

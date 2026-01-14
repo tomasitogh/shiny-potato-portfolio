@@ -9,6 +9,11 @@ export default function Contact() {
       <p>
         {t("contact.description")}
       </p>
+      <div className="contact-links">
+        <a href={`mailto:${t("contact.email")}`}>Email</a>
+        <a href={t("contact.github")} target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href={t("contact.linkedin")} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
     </main>
   )
 }

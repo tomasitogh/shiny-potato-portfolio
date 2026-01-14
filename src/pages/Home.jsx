@@ -5,9 +5,9 @@ export default function Home() {
 
   return (
     <main className="page">
-      <h1>{t("hero.title")}</h1>
+      <h1>{t("homePage.title")}</h1>
       <p>
-        {t("hero.subtitle")}
+        {t("homePage.description")}
       </p>
     </main>
   )

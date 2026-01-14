@@ -42,7 +42,10 @@
 .main-pill {
   padding: 5px 6px;
   height: 48px;
-  width: 265px;
+  width: auto;
+  min-width: 480px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-link {

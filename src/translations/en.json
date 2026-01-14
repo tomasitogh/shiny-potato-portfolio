@@ -1,32 +1,66 @@
 {
-    "hero": {
-        "title": "Frontend Developer",
-        "subtitle": "I build clean and scalable interfaces",
-        "cvButton": "Download CV"
+    "homePage": {
+        "title": "Software Engineer",
+        "description": "Specialized in building scalable systems and high-impact digital products."
+    },
+    "about": {
+        "title": "About Me",
+        "description": "Backend-oriented Software Engineer with experience building data-intensive and full-stack systems. I currently work at Deloitte developing internal tools that process millions of financial records using Python, SQL, and DuckDB."
     },
     "nav": {
         "home": "Home",
+        "about": "About",
         "projects": "Projects",
-        "about": "About Me",
+        "experience": "Experience",
         "contact": "Contact"
     },
     "projects": {
         "title": "Projects",
         "items": [
             {
-                "id": "roadplan",
-                "name": "RoadPlan",
-                "description": "Range-based trip planner",
-                "tech": [
+                "title": "Deloitte – Financial Data Processing Platform",
+                "technologies": [
+                    "Python",
+                    "Pandas",
+                    "DuckDB",
+                    "SQL Server"
+                ],
+                "description": "Internal application used to process and validate millions of financial records."
+            },
+            {
+                "title": "Puros Mates – Full-Stack E-commerce",
+                "technologies": [
+                    "Java",
+                    "Spring Boot",
                     "React",
-                    "Google Maps",
-                    "Node"
-                ]
+                    "MySQL"
+                ],
+                "description": "Full-stack e-commerce system with REST API backend and admin panel."
+            }
+        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "items": [
+            {
+                "role": "Senior Software Engineer",
+                "company": "Tech Corp",
+                "period": "2023 - Present",
+                "description": "Leading microservices development and database optimization."
+            },
+            {
+                "role": "Full Stack Developer",
+                "company": "StartUp Inc",
+                "period": "2021 - 2023",
+                "description": "End-to-end feature development using React and Node.js."
             }
         ]
     },
     "contact": {
         "title": "Contact",
-        "description": "If you want to work together..."
+        "description": "If you’re building a product-driven team and need an engineer who can work across backend, data, and frontend, feel free to reach out.",
+        "email": "gonzaleztomas.contacto@gmail.com",
+        "github": "https://github.com/tomasitogh",
+        "linkedin": "https://www.linkedin.com/in/tomas-gonzalez-humphreys"
     }
 }
