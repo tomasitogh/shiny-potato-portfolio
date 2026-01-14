@@ -5,10 +5,9 @@ export default function Home() {
 
   return (
     <main className="page">
-      <h1>{t("welcome")}</h1>
+      <h1>{t("hero.title")}</h1>
       <p>
-        I build digital products focused on performance, clarity and good UX.
-        This portfolio is built with React, React Router and a custom UI system.
+        {t("hero.subtitle")}
       </p>
     </main>
   )

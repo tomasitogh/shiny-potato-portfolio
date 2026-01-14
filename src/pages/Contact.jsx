@@ -1,9 +1,13 @@
+import { useGlobal } from "../context/GlobalContext"
+
 export default function Contact() {
+  const { t } = useGlobal()
+
   return (
     <main className="page">
-      <h1>Contact</h1>
+      <h1>{t("contact.title")}</h1>
       <p>
-        If you want to work together or discuss a project, feel free to reach out.
+        {t("contact.description")}
       </p>
     </main>
   )

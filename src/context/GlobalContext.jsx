@@ -1,11 +1,14 @@
 import { createContext, useState, useContext, useEffect } from 'react';
 
+import es from '../translations/es.json';
+import en from '../translations/en.json';
+
 const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
   // Inicializamos estado leyendo localStorage o usando valores por defecto
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark');
-  const [lang, setLang] = useState(() => localStorage.getItem('lang') || 'es');
+  const [lang, setLang] = useState(() => localStorage.getItem('lang') || 'en');
 
   // Guardamos en localStorage cada vez que cambien
   useEffect(() => {
@@ -17,14 +20,20 @@ export const GlobalProvider = ({ children }) => {
     localStorage.setItem('lang', lang);
   }, [lang]);
 
-  // Diccionario de textos (puedes ampliarlo luego)
-  const translations = {
-    es: { home: "Inicio", projects: "Proyectos", contact: "Contacto", welcome: "Bienvenido a mi Portfolio" },
-    en: { home: "Home", projects: "Projects", contact: "Contact", welcome: "Welcome to my Portfolio" }
-  };
+  // Diccionario de textos cargado desde JSONs
+  const translations = { es, en };
 
-  // Función helper para obtener texto
-  const t = (key) => translations[lang][key] || key;
+  // Función helper para obtener texto (soporta claves anidadas tipo "hero.title")
+  const t = (key) => {
+    const keys = key.split('.');
+    let value = translations[lang];
+
+    for (const k of keys) {
+      value = value?.[k];
+    }
+
+    return value || key;
+  };
 
   return (
     <GlobalContext.Provider value={{ theme, setTheme, lang, setLang, t }}>

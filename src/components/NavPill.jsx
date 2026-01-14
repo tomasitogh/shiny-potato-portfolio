@@ -19,7 +19,7 @@ export default function NavPill() {
                 transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
               />
             )}
-            <span style={{ position: "relative", zIndex: 1 }}>{t("home")}</span>
+            <span style={{ position: "relative", zIndex: 1 }}>{t("nav.home")}</span>
           </>
         )}
       </NavLink>
@@ -36,7 +36,7 @@ export default function NavPill() {
                 transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
               />
             )}
-            <span style={{ position: "relative", zIndex: 1 }}>{t("projects")}</span>
+            <span style={{ position: "relative", zIndex: 1 }}>{t("nav.projects")}</span>
           </>
         )}
       </NavLink>
@@ -53,7 +53,7 @@ export default function NavPill() {
                 transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
               />
             )}
-            <span style={{ position: "relative", zIndex: 1 }}>{t("contact")}</span>
+            <span style={{ position: "relative", zIndex: 1 }}>{t("nav.contact")}</span>
           </>
         )}
       </NavLink>

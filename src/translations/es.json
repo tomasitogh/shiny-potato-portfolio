@@ -1,0 +1,32 @@
+{
+    "hero": {
+        "title": "Desarrollador Frontend",
+        "subtitle": "Construyo interfaces limpias y escalables",
+        "cvButton": "Descargar CV"
+    },
+    "nav": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "about": "Sobre mí",
+        "contact": "Contacto"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "items": [
+            {
+                "id": "roadplan",
+                "name": "RoadPlan",
+                "description": "Planificador de viajes por autonomía",
+                "tech": [
+                    "React",
+                    "Google Maps",
+                    "Node"
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contacto",
+        "description": "Si quieres trabajar juntos..."
+    }
+}
