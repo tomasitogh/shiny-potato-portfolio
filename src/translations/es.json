@@ -1,7 +1,7 @@
 {
     "homePage": {
-        "title": "Ingeniero de Software",
-        "description": "Especializado en construir sistemas escalables y productos digitales de alto impacto."
+        "title": "Tomás Gonzalez Humphreys",
+        "description": "Ingeniero de software con experiencia en sistemas full-stack y procesamiento de datos. Actualmente trabajo en Deloitte desarrollando herramientas internas que procesan millones de registros contables usando Python, Pandas, SQL y DuckDB. También construyo aplicaciones web con Java (Spring Boot) y React, enfocándome en arquitectura limpia, confiabilidad y mantenibilidad. Estoy buscando trabajar en equipos, con ownership real y foco en producto."
     },
     "about": {
         "title": "Sobre mí",

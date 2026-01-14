@@ -1,7 +1,7 @@
 {
     "homePage": {
-        "title": "Software Engineer",
-        "description": "Specialized in building scalable systems and high-impact digital products."
+        "title": "Tomás Gonzalez Humphreys",
+        "description": "Software Engineer with experience building data-intensive and full-stack systems. I currently work at Deloitte developing internal tools that process millions of financial records using Python, SQL, and DuckDB. I also build web applications with Java (Spring Boot) and React, focusing on clean architecture, correctness, and maintainability. I enjoy working in small, high-ownership teams where engineering quality and product impact matter."
     },
     "about": {
         "title": "About Me",

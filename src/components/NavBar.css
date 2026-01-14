@@ -90,14 +90,14 @@
   display: flex;
   align-items: center;
   min-width: 90px;
-  background: rgba(120, 120, 120, 0.1);
+  background: var(--pill-bg);
   /* Track background */
   border-radius: 99px;
-  padding: 2px;
+  padding: 4px;
   /* Padding for the floating pill effect */
-  border: none;
+  border: 1px solid var(--pill-border);
   /* Segmented control inside has its own track look */
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--pill-shadow);
   /* Inner depth for track */
 }
 
