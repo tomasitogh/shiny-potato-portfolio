@@ -78,9 +78,6 @@
     },
     "contact": {
         "title": "Contacto",
-        "description": "Si estás construyendo un producto y buscás a alguien que pueda trabajar en backend, data y frontend, escribime.",
-        "email": "gonzaleztomas.contacto@gmail.com",
-        "github": "https://github.com/tomasitogh",
-        "linkedin": "https://www.linkedin.com/in/tomas-gonzalez-humphreys"
+        "description": "Si estás construyendo un producto y buscás a alguien que pueda trabajar en backend, data y frontend, escribime."
     }
 }

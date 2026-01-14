@@ -78,9 +78,6 @@
     },
     "contact": {
         "title": "Contact",
-        "description": "If you’re building a product-driven team and need an engineer who can work across backend, data, and frontend, feel free to reach out.",
-        "email": "gonzaleztomas.contacto@gmail.com",
-        "github": "https://github.com/tomasitogh",
-        "linkedin": "https://www.linkedin.com/in/tomas-gonzalez-humphreys"
+        "description": "If you’re building a product-driven team and need an engineer who can work across backend, data, and frontend, feel free to reach out."
     }
 }
