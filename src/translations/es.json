@@ -53,16 +53,26 @@
         "title": "Experiencia",
         "items": [
             {
-                "role": "Senior Software Engineer",
-                "company": "Tech Corp",
-                "period": "2023 - Presente",
-                "description": "Liderando el desarrollo de microservicios y optimización de bases de datos."
+                "role": "Especialista en Sistemas",
+                "company": "Deloitte",
+                "period": "junio 2025 – Presente",
+                "description": [
+                    "Desarrollo y mantenimiento de herramientas internas en Python para el procesamiento de millones de registros, priorizando la corrección de datos, validaciones y resultados reproducibles.",
+                    "Diseño de pipelines automatizados de ingestión, transformación y agregación de datos utilizando Pandas, Polars, DuckDB y SQL Server, integrando múltiples fuentes Excel encriptadas.",
+                    "Implementación de soluciones end-to-end, desde el relevamiento de requerimientos con stakeholders hasta el deploy en entornos corporativos.",
+                    "Traducción de reglas de negocio en lógica técnica determinística y trazable, utilizada en procesos contables y reportes operativos críticos."
+                ]
             },
             {
-                "role": "Full Stack Developer",
-                "company": "StartUp Inc",
-                "period": "2021 - 2023",
-                "description": "Desarrollo de features end-to-end usando React y Node.js."
+                "role": "Desarrollador Full Stack",
+                "company": "Puros Mates (Emprendimiento Personal)",
+                "period": "",
+                "description": [
+                    "Desarrollo de un ecommerce full stack con React (Redux) en el frontend y Java + Spring Boot en el backend.",
+                    "Diseño de APIs REST con Spring Boot, JPA y MySQL, siguiendo una arquitectura en capas (Controller, Service, Data) orientada a mantenibilidad y escalabilidad.",
+                    "Implementación de catálogo de productos escalable y flujos administrativos, cuidando la consistencia de datos y el manejo predecible del estado.",
+                    "Enfoque en buenas prácticas de depuración y resolución de problemas a lo largo de toda la arquitectura."
+                ]
             }
         ]
     },

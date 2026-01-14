@@ -13,7 +13,15 @@ export default function Experience() {
                         <span style={{ fontSize: "0.9rem", color: "var(--subtext)", display: "block", marginBottom: "0.5rem" }}>
                             {job.period}
                         </span>
-                        <p>{job.description}</p>
+                        <ul style={{ paddingLeft: "1.2rem", lineHeight: "1.6" }}>
+                            {Array.isArray(job.description) ? (
+                                job.description.map((point, i) => (
+                                    <li key={i} style={{ marginBottom: "0.5rem" }}>{point}</li>
+                                ))
+                            ) : (
+                                <li>{job.description}</li>
+                            )}
+                        </ul>
                     </div>
                 ))}
             </div>

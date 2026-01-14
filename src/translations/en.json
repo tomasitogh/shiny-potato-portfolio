@@ -53,16 +53,26 @@
         "title": "Experience",
         "items": [
             {
-                "role": "Senior Software Engineer",
-                "company": "Tech Corp",
-                "period": "2023 - Present",
-                "description": "Leading microservices development and database optimization."
+                "role": "Systems Specialist",
+                "company": "Deloitte",
+                "period": "June 2025 – Present",
+                "description": [
+                    "Developed and maintained internal Python-based data tools processing millions of records, with a strong focus on data correctness, validation rules, and reproducible outputs for financial operations.",
+                    "Designed automated pipelines for data ingestion, transformation, and aggregation using Pandas, Polars, DuckDB, and SQL Server, integrating multiple encrypted Excel sources.",
+                    "Built end-to-end solutions, from requirements gathering with stakeholders to deployment in corporate environments, ensuring traceability and auditability of data flows.",
+                    "Collaborated closely with non-technical and technical stakeholders to translate business rules into deterministic, testable data logic used in operational and accounting reporting."
+                ]
             },
             {
                 "role": "Full Stack Developer",
-                "company": "StartUp Inc",
-                "period": "2021 - 2023",
-                "description": "End-to-end feature development using React and Node.js."
+                "company": "Puros Mates (Personal Bussines)",
+                "period": "",
+                "description": [
+                    "Designed and implemented a full stack ecommerce application using React (Redux) on the frontend and Java with Spring Boot on the backend.",
+                    "Built REST APIs with Spring Boot, JPA, and MySQL, following layered architecture principles (Controller, Service, Data) to ensure maintainability and clear separation of concerns.",
+                    "Developed a scalable product catalog and admin-oriented data flows, focusing on predictable state management and data consistency across layers.",
+                    "Applied systematic debugging and problem-solving practices to maintain correctness across frontend state, backend logic, and persistence layers."
+                ]
             }
         ]
     },
