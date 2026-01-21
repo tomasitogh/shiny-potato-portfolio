@@ -10,7 +10,15 @@ export default function Projects() {
         {t("projects.items").map((project, index) => (
           <div key={index} className="project-card">
             <h2>{project.title}</h2>
-            <p>{project.description}</p>
+            {Array.isArray(project.description) ? (
+              <ul className="project-description-list">
+                {project.description.map((desc, i) => (
+                  <li key={i}>{desc}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>{project.description}</p>
+            )}
             <div className="tech-stack">
               {project.technologies.map(tech => (
                 <span key={tech} className="tech-tag">{tech}</span>

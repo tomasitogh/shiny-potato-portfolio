@@ -35,7 +35,12 @@
                     "DuckDB",
                     "SQL Server"
                 ],
-                "description": "Internal application used to process and validate millions of financial records."
+                "description": [
+                    "Developed and maintained Python-based data tools processing large datasets, prioritizing data accuracy, validation logic, and reliability in outputs.",
+                    "Built automated workflows and pipelines for data aggregation, transformation and integration with SQL Server and DuckDB execution layers.",
+                    "Collaborated with stakeholders to clarify data requirements and translate them into technical solutions with documented logic and reproducible results.",
+                    "Ensured end-to-end correctness and traceability of critical data processes used in financial and operational reporting contexts."
+                ]
             },
             {
                 "title": "Puros Mates – Full-Stack E-commerce",
