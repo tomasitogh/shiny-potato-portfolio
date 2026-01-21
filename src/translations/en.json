@@ -50,7 +50,11 @@
                     "React",
                     "MySQL"
                 ],
-                "description": "Full-stack e-commerce system with REST API backend and admin panel."
+                "description": [
+                    "Designed backend services using Java and Spring Boot with a focus on consistent data models and API correctness.",
+                    "Utilized frontend React components to present structured data for users, with attention to predictable state and clear data flows.",
+                    "Applied debugging and problem-solving techniques to maintain data consistency through layered architecture."
+                ]
             }
         ]
     },
