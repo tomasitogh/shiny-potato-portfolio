@@ -33,27 +33,53 @@
                     "Python",
                     "Pandas",
                     "DuckDB",
-                    "SQL Server"
+                    "SQL Server",
+                    "Flet"
                 ],
                 "description": [
+                    "Desarrollo E2E (End to End) de aplicación monolítica en Flet (UI) y Python (Pandas) que automatiza tarea que antes hacia un equipo de +4 personas, ahorrando ~8 horas cada mes en conjunto del equipo.",
                     "Desarrollé y mantuve herramientas de datos basadas en Python procesando grandes volúmenes de datos, priorizando la precisión, lógica de validación y confiabilidad en los resultados.",
                     "Construí flujos de trabajo automatizados y pipelines para la agregación, transformación e integración de datos con capas de ejecución en SQL Server y DuckDB.",
                     "Colaboré con stakeholders para clarificar requerimientos de datos y traducirlos en soluciones técnicas con lógica documentada y resultados reproducibles.",
-                    "Aseguré la corrección de punta a punta y la trazabilidad de procesos de datos críticos utilizados en contextos de reportes financieros y operativos."
+                    "Ownership total de la plataforma: Transformé requerimientos contables complejos en funcionalidades de software intuitivas, mejorando la eficiencia del equipo operativo"
                 ]
             },
             {
                 "title": "Puros Mates – E-commerce Full-Stack",
+                "url": "https://purosmates.com.ar",
                 "technologies": [
                     "Java",
                     "Spring Boot",
                     "React",
-                    "MySQL"
+                    "Next.js",
+                    "Tailwind",
+                    "MySQL",
+                    "Digital Ocean"
                 ],
                 "description": [
-                    "Diseñé servicios backend usando Java y Spring Boot con un enfoque en modelos de datos consistentes y corrección de API.",
-                    "Utilicé componentes de React en el frontend para presentar datos estructurados a los usuarios, con atención al estado predecible y flujos de datos claros.",
-                    "Apliqué técnicas de depuración y resolución de problemas para mantener la consistencia de datos a través de una arquitectura en capas."
+                    "Backend desarrollado en Spring Boot, garantizando consistencia y escalabilidad. Desplegado en Digital Ocean al igual que la base de datos en MySQL.",
+                    "Utilización de componentes tanto de servidor como de cliente, para tener interfaz fluida, sin recargas innecesarias y garantizando buen SEO.",
+                    "Integraciones con autenticación con Google, push notifications como app PWA e integración de API externa, como métodos de pago como Mercado Pago en Spring Boot.",
+                    "Despliege del frontend en Vercel, con dominio perosnalizado para más confianza de los usuarios",
+                    "Panel de administrador completo para la gestión autónoma del E-commerce y herramientas de analytics para medir el rendimiento de la tienda",
+                    "Este Ecommerce se presenta como solución a un negocio personal, ya que soy el dueño del emprendimiento de mates y me impulsó a escalar con integraciones de pagos, logueos, marketing y servicios de logística."
+                ]
+            },
+            {
+                "title": "Vela Vida – E-commerce Full-Stack",
+                "url": "https://velavida.com.ar",
+                "technologies": [
+                    "React",
+                    "Next.js",
+                    "Prisma",
+                    "Tailwind"
+                ],
+                "description": [
+                    "Ecommerce Full stack hecho con Next js, el cual nos permite ofrecer una tienda con pagos integrados y logística integrada.",
+                    "Las ventajas de Next js nos permiten garantizar excelente SEO y no perder ventas e interacciones por retardo en la carga",
+                    "Integración con API externa cómo Mercado Pago en backend Next js, usuarios con Clerk (Google) y push notifications en PWA",
+                    "Panel de administrador completo para la gestión autónoma del E-commerce y herramientas de analytics para medir el rendimiento de la tienda",
+                    "Ownership y compromiso en la entrega de una solución robusta y escalable"
                 ]
             }
         ]
@@ -73,14 +99,15 @@
                 ]
             },
             {
-                "role": "Desarrollador Full Stack",
-                "company": "Puros Mates (Emprendimiento Personal)",
+                "role": "Product Engineer | Independent Ventures",
+                "company": "Personal",
                 "period": "",
                 "description": [
-                    "Desarrollo de un ecommerce full stack con React (Redux) en el frontend y Java + Spring Boot en el backend.",
-                    "Diseño de APIs REST con Spring Boot, JPA y MySQL, siguiendo una arquitectura en capas (Controller, Service, Data) orientada a mantenibilidad y escalabilidad.",
-                    "Implementación de catálogo de productos escalable y flujos administrativos, cuidando la consistencia de datos y el manejo predecible del estado.",
-                    "Enfoque en buenas prácticas de depuración y resolución de problemas a lo largo de toda la arquitectura."
+                    "Ownership de Producto E2E: Responsable del ciclo de vida completo (desde el concepto hasta la producción) de plataformas e-commerce reales (Puros Mates y Vela Vida), priorizando la conversión y la experiencia de usuario.",
+                    "Desarrollo Full-Stack con Next.js: Implementación de interfaces de alto rendimiento utilizando Next.js (App Router) y React, optimizando el renderizado del lado del servidor (SSR) para maximizar el SEO y alcanzar métricas de Core Web Vitals de excelencia.",
+                    "Integraciones de Negocio Críticas: Diseño y ejecución de flujos de checkout complejos, integrando pasarelas de pago (Mercado Pago) y servicios de logística local (Correo Argentino) para automatizar la operación comercial.",
+                    "Estrategia de Crecimiento y SEO: Gestión directa del posicionamiento orgánico y la arquitectura de información, logrando que productos físicos lleguen a usuarios reales de manera eficiente a través de la web.",
+                    "Visión de "Founder": Toma de decisiones sobre el stack tecnológico (Node.js, PostgreSQL, Clerk Auth) basadas en la velocidad de salida al mercado (Time-to-Market) y la estabilidad del producto final."
                 ]
             }
         ]

@@ -54,3 +54,52 @@ body {
 .project-description-list li {
   margin-bottom: 5px;
 }
+
+/* Contenedor de las tecnologías */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Espacio entre cada etiqueta */
+  margin-top: 12px;
+}
+
+/* Estilo para cada etiqueta individual */
+.tech-tag {
+  background-color: var(--pill-bg);
+  border: 1px solid var(--pill-border);
+  color: var(--text);
+  padding: 4px 12px;
+  border-radius: 99px; /* Forma de píldora */
+  font-size: 0.85rem;
+  font-weight: 500;
+  backdrop-filter: blur(4px);
+  transition: transform 0.2s ease;
+}
+
+.tech-tag:hover {
+  transform: translateY(-2px);
+  border-color: var(--text);
+}
+
+.project-link {
+  opacity: 0.6;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.project-card {
+  /* Asegúrate de que el card tenga una posición relativa si usas iconos absolutos */
+  position: relative;
+  border: 1px solid var(--pill-border);
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: var(--pill-bg);
+  margin-bottom: 1.5rem;
+}

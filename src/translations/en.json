@@ -7,10 +7,10 @@
     },
     "about": {
         "title": "About Me",
-        "description": "Software Engineer with experience analyzing, developing, and validating software solutions across backend and data-intensive environments. Strong background in Python, Java, and React, with hands-on experience identifying logical errors, performance issues, and data inconsistencies. Able to clearly explain technical concepts in written Spanish and English, with a strong focus on code correctness, reliability, and structured feedback. Comfortable collaborating with non-technical stakeholders. Presented technical solutions and data outputs to regional Tax leadership at a Big Tech client, explaining data logic, validations, and results.",
+        "description": "I'm a Product Engineer with a founder's mentality. I don't just write code; I build end-to-end solutions that solve real-world problems—from automating tax workflows for Big Tech clients at Deloitte to launching my own e-commerce ventures. Comfortable collaborating with non-technical stakeholders. Presented technical solutions and data outputs to regional Tax leadership at a Big Tech client, explaining data logic, validations, and results.",
         "nextSteps": {
             "title": "Next steps",
-            "description": "I’m currently around 60% through my Computer Science Engineering degree, balancing academic challenges with real-world experience building time-saving software in my current role. I’m actively strengthening my backend skills with Java and Spring Boot, aiming to grow as a Full Stack Engineer capable of building robust and scalable systems."
+            "description": "I’m currently around 60% through my Computer Science Engineering degree, balancing academic challenges with real-world experience building time-saving software in my current role. I’m actively strengthening my fullstack skills with Next js, as I'm still improving my Python and Java skills."
         },
         "jobOpportunities": {
             "title": "Job Opportunities",
@@ -44,6 +44,22 @@
             },
             {
                 "title": "Puros Mates – Full-Stack E-commerce",
+                "url": "https://purosmates.com.ar",
+                "technologies": [
+                    "Java",
+                    "Spring Boot",
+                    "React",
+                    "MySQL"
+                ],
+                "description": [
+                    "Designed backend services using Java and Spring Boot with a focus on consistent data models and API correctness.",
+                    "Utilized frontend React components to present structured data for users, with attention to predictable state and clear data flows.",
+                    "Applied debugging and problem-solving techniques to maintain data consistency through layered architecture."
+                ]
+            },
+            {
+                "title": "Vela Vida – Full-Stack E-commerce",
+                "url": "https://velavida.com.ar",
                 "technologies": [
                     "Java",
                     "Spring Boot",
