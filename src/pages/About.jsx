@@ -23,6 +23,19 @@ export default function About() {
                     {t("about.jobOpportunities.description")}
                 </p>
             </section>
+
+            <div style={{ display: "flex", justifyContent: "center", marginTop: "3rem" }}>
+                <img 
+                    src="/IMG_6018.jpg" 
+                    alt="Profile" 
+                    style={{ 
+                        width: "200px", 
+                        height: "200px", 
+                        borderRadius: "50%", 
+                        objectFit: "cover" 
+                    }} 
+                />
+            </div>
         </main>
     )
 }

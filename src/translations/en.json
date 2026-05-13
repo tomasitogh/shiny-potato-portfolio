@@ -1,20 +1,20 @@
 {
     "homePage": {
         "title": "Tomás Gonzalez Humphreys",
-        "description": "Software Engineer with experience building data-intensive and full-stack systems. I currently work at Deloitte developing internal tools that process millions of financial records using Python, SQL, and DuckDB. I also build web applications with Java (Spring Boot) and React, focusing on clean architecture, correctness, and maintainability. I am looking for a team-based job with real ownership and a focus on product.",
+        "description": "Software Engineer with experience building data-intensive and full-stack systems developing internal tools that process millions of financial records using Python, Pandas, SQL and DuckDB. I also build web applications with Next.js, React, Shadcn UI, Prisma, Spring Boot and relational databases, focusing on clean architecture, correctness, and maintainability. I'm looking for a team-based job with real ownership and a focus on product.",
         "projectsButton": "View my projects",
         "cvButton": "Download CV"
     },
     "about": {
         "title": "About Me",
-        "description": "I'm a Product Engineer with a founder's mentality. I don't just write code; I build end-to-end solutions that solve real-world problems—from automating tax workflows for Big Tech clients at Deloitte to launching my own e-commerce ventures. Comfortable collaborating with non-technical stakeholders. Presented technical solutions and data outputs to regional Tax leadership at a Big Tech client, explaining data logic, validations, and results.",
+        "description": "Software Engineer with experience building high-impact internal tools with Python and Flet, processing millions of records and optimizing critical data flows in the accounting sector at my current company. In my spare time, I focus on building scalable, high-impact products, like 2 Ecommerce platforms with Next.js, React, shadcn UI, backend in one with Server Actions and the other with Spring Boot. I have fluent English, B2 level, which allows me to communicate fluently.",
         "nextSteps": {
             "title": "Next steps",
-            "description": "I’m currently around 60% through my Computer Science Engineering degree, balancing academic challenges with real-world experience building time-saving software in my current role. I’m actively strengthening my fullstack skills with Next js, as I'm still improving my Python and Java skills."
+            "description": "I'm currently studying Computer Science Engineering at UADE, about 60% through, balancing academic challenges with professional experience and personal projects. I'm currently the only dev on my team and I'm looking for a more collaborative environment, where I can learn from my peers and they can learn from me."
         },
         "jobOpportunities": {
             "title": "Job Opportunities",
-            "description": "For my next role, I’m especially interested in joining an engineering team where collaboration, technical discussions, and shared ownership are part of the daily work. I value environments where engineers learn from each other through reviews, design decisions, and collective problem-solving. I’m looking for remote opportunities with flexible or asynchronous schedules."
+            "description": "In this new professional stage, I'm looking to join an engineering team where collaborative work, technical exchange and peer learning are part of the day-to-day. I'm interested in remote environments, ideally with some flexibility, that allow a good balance between work, study and professional growth."
         }
     },
     "nav": {
@@ -28,48 +28,74 @@
         "title": "Projects",
         "items": [
             {
-                "title": "Deloitte – Financial Data Processing Platform",
-                "technologies": [
-                    "Python",
-                    "Pandas",
-                    "DuckDB",
-                    "SQL Server"
-                ],
-                "description": [
-                    "Developed and maintained Python-based data tools processing large datasets, prioritizing data accuracy, validation logic, and reliability in outputs.",
-                    "Built automated workflows and pipelines for data aggregation, transformation and integration with SQL Server and DuckDB execution layers.",
-                    "Collaborated with stakeholders to clarify data requirements and translate them into technical solutions with documented logic and reproducible results.",
-                    "Ensured end-to-end correctness and traceability of critical data processes used in financial and operational reporting contexts."
-                ]
-            },
-            {
-                "title": "Puros Mates – Full-Stack E-commerce",
+                "title": "Puros Mates – E-commerce",
                 "url": "https://purosmates.com.ar",
                 "technologies": [
-                    "Java",
-                    "Spring Boot",
                     "React",
-                    "MySQL"
+                    "Next.js",
+                    "Spring Boot",
+                    "MySQL",
+                    "Tailwind",
+                    "Shadcn UI",
+                    "Mercado Pago",
+                    "Clerk",
+                    "Vercel"
                 ],
                 "description": [
-                    "Designed backend services using Java and Spring Boot with a focus on consistent data models and API correctness.",
-                    "Utilized frontend React components to present structured data for users, with attention to predictable state and clear data flows.",
-                    "Applied debugging and problem-solving techniques to maintain data consistency through layered architecture."
+                    "Full-stack Ecommerce made with Next.js, with integrated payments and logistics.",
+                    "Ensuring SEO and excellent load times, to rank in search engines and GEO (appearing in AI chat recommendations)",
+                    "External API integration like Mercado Pago with API Routes, users with Clerk (Google) and push notifications in PWA",
+                    "Complete admin panel for autonomous E-commerce management and analytics tools to measure store performance with Shadcn UI",
+                    "Ownership and commitment to delivering a robust and scalable solution",
+                    "Push Notifications in PWA using FCM to notify administrators of new orders",
+                    "Frontend deployment on Vercel, with personalized domain for more user trust",
+                    "There are still improvements, but the development guarantees a ready-to-market product, which will be the main growth tool for the business"
                 ]
             },
             {
-                "title": "Vela Vida – Full-Stack E-commerce",
+                "title": "Vela Vida – E-commerce",
                 "url": "https://velavida.com.ar",
                 "technologies": [
-                    "Java",
-                    "Spring Boot",
                     "React",
-                    "MySQL"
+                    "Next.js",
+                    "Prisma",
+                    "Tailwind",
+                    "Shadcn UI",
+                    "Neon",
+                    "Firebase Cloud Messaging",
+                    "Clerk",
+                    "Vercel",
+                    "PostgreSQL"
                 ],
                 "description": [
-                    "Designed backend services using Java and Spring Boot with a focus on consistent data models and API correctness.",
-                    "Utilized frontend React components to present structured data for users, with attention to predictable state and clear data flows.",
-                    "Applied debugging and problem-solving techniques to maintain data consistency through layered architecture."
+                    "Full-stack Ecommerce made with Next.js, with integrated payments and logistics.",
+                    "Ensuring SEO and excellent load times, to rank in search engines and GEO (appearing in AI chat recommendations)",
+                    "External API integration like Mercado Pago with API Routes, users with Clerk (Google) and push notifications in PWA",
+                    "Complete admin panel for autonomous E-commerce management and analytics tools to measure store performance with Shadcn UI",
+                    "Ownership and commitment to delivering a robust and scalable solution",
+                    "Push Notifications in PWA using FCM to notify administrators of new orders",
+                    "Frontend deployment on Vercel, with personalized domain for more user trust",
+                    "There are still improvements, but the development guarantees a ready-to-market product, which will be the main growth tool for the business"
+                ]
+            },
+            {
+                "title": "MGRC App",
+                "url": "https://mgrc.app/",
+                "technologies": [
+                    "React",
+                    "Next.js",
+                    "Prisma",
+                    "Tailwind",
+                    "Shadcn UI",
+                    "Firebase Cloud Messaging",
+                    "Neon",
+                    "PostgreSQL"
+                ],
+                "description": [
+                    "Website with team alignment, results and standings of the Monte Grande Rugby Club, both Rugby and Hockey",
+                    "My role was to take ownership of some key features, like the visualization of results and standings for the 8 Hockey teams",
+                    "I worked collectively with other colleagues where I was able to grow a lot in my teamwork",
+                    "The project still has pending features like sticker album integration for the club, game in 'Gran DT' format and QR scanning for club access"
                 ]
             }
         ]
@@ -82,27 +108,31 @@
                 "company": "Deloitte",
                 "period": "June 2025 – Present",
                 "description": [
-                    "Developed and maintained internal Python-based data tools processing millions of records, with a strong focus on data correctness, validation rules, and reproducible outputs for financial operations.",
-                    "Designed automated pipelines for data ingestion, transformation, and aggregation using Pandas, Polars, DuckDB, and SQL Server, integrating multiple encrypted Excel sources.",
-                    "Built end-to-end solutions, from requirements gathering with stakeholders to deployment in corporate environments, ensuring traceability and auditability of data flows.",
-                    "Collaborated closely with non-technical and technical stakeholders to translate business rules into deterministic, testable data logic used in operational and accounting reporting."
+                    "Development and maintenance of internal Python tools for processing millions of records, prioritizing data correctness, validations and reproducible results.",
+                    "Design of automated pipelines for data ingestion, transformation and aggregation using Pandas, Polars, DuckDB and SQL Server, integrating multiple encrypted Excel sources.",
+                    "Implementation of end-to-end solutions, from requirements gathering with stakeholders to deployment in corporate environments.",
+                    "Translation of business rules into deterministic and traceable technical logic, used in critical accounting processes and operational reports.",
+                    "I worked as the only dev on the implementation of several projects and improvements, like Excel improvements using Macros and VBA, solving errors in legacy Tableau dashboards and improving and innovating with a product that saved time for the operational team",
+                    "This gave me quite a bit of fluency in gathering business requirements, having communications with both management and operational levels, and solving problems in the best possible way"
                 ]
             },
             {
-                "role": "Full Stack Developer",
-                "company": "Puros Mates (Personal Bussines)",
+                "role": "Product Engineer / Full Stack Developer | Independent Ventures",
+                "company": "Personal",
                 "period": "",
                 "description": [
-                    "Designed and implemented a full stack ecommerce application using React (Redux) on the frontend and Java with Spring Boot on the backend.",
-                    "Built REST APIs with Spring Boot, JPA, and MySQL, following layered architecture principles (Controller, Service, Data) to ensure maintainability and clear separation of concerns.",
-                    "Developed a scalable product catalog and admin-oriented data flows, focusing on predictable state management and data consistency across layers.",
-                    "Applied systematic debugging and problem-solving practices to maintain correctness across frontend state, backend logic, and persistence layers."
+                    "E2E Product Ownership: Responsible for the complete lifecycle (from concept to production) of real e-commerce platforms (Puros Mates and Vela Vida), prioritizing conversion and user experience.",
+                    "Full-Stack Development with Next.js: Implementation of high-performance interfaces using Next.js (App Router) and React, optimizing server-side rendering (SSR) to maximize SEO and achieve Core Web Vitals metrics.",
+                    "Critical Business Integrations: Design and execution of complex checkout flows, integrating payment gateways (Mercado Pago) and logistics services to automate commercial operations.",
+                    "Growth and SEO Strategy: Direct management of organic positioning and information architecture, getting physical products to real users efficiently through the web.",
+                    "'Founder' Vision: Decision-making on the tech stack based on time-to-market and final product stability.",
+                    "Focus on improving user experience in every corner of the platform, being able to make a purchase in just 4 clicks."
                 ]
             }
         ]
     },
     "contact": {
         "title": "Contact",
-        "description": "If you’re building a product-driven team and need an engineer who can work across backend, data, and frontend, feel free to reach out."
+        "description": "If you're building a product and need someone who can work on backend, data and frontend, reach out. If you're a recruiter and want to check my Github repositories for these projects, contact me and I'll share them with you."
     }
 }

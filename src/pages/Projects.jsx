@@ -10,18 +10,30 @@ export default function Projects() {
       <div className="projects-grid">
         {t("projects.items").map((project, index) => (
           <div key={index} className="project-card">
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
               <h2>{project.title}</h2>
-              {/* Renderizado condicional del enlace */}
               {project.url && (
                 <a 
                   href={project.url} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="project-link"
-                  style={{ fontSize: '1.2rem', color: 'var(--text)' }}
+                  style={{ 
+                    color: '#3b82f6', 
+                    textDecoration: 'none', 
+                    fontSize: '0.9rem',
+                    fontFamily: 'system-ui, -apple-system, sans-serif',
+                    transition: 'all 0.2s ease',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.color = '#60a5fa'
+                    e.target.style.textDecoration = 'underline'
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.color = '#3b82f6'
+                    e.target.style.textDecoration = 'none'
+                  }}
                 >
-                  <FaExternalLinkAlt title="Visitar sitio" />
+                  {project.url}
                 </a>
               )}
             </div>

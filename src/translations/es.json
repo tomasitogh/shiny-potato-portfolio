@@ -1,20 +1,20 @@
 {
     "homePage": {
         "title": "Tomás Gonzalez Humphreys",
-        "description": "Ingeniero de software con experiencia en sistemas full-stack y procesamiento de datos. Actualmente trabajo en Deloitte desarrollando herramientas internas que procesan millones de registros contables usando Python, Pandas, SQL y DuckDB. También construyo aplicaciones web con Java (Spring Boot) y React, enfocándome en arquitectura limpia, confiabilidad y mantenibilidad. Estoy buscando trabajar en equipos, con ownership real y foco en producto.",
+        "description": "Ingeniero de software con experiencia en sistemas full-stack y procesamiento de datos. Actualmente trabajo en Deloitte desarrollando herramientas internas que procesan millones de registros contables usando Python, Pandas, SQL y DuckDB. También construyo aplicaciones web con Next.js, React, Shadcn UI, Prisma, Spring Boot y bases de datos relacionales, enfocándome en arquitectura limpia, confiabilidad y mantenibilidad. Estoy buscando trabajar en equipos con ownership real y foco en producto.",
         "projectsButton": "Ver mis proyectos",
         "cvButton": "Descargar CV"
     },
     "about": {
         "title": "Sobre mí",
-        "description": "Software Engineer con experiencia en el desarrollo de herramientas internas de alto impacto, procesando millones de registros y optimizando flujos de datos críticos en el sector contable en Deloitte. Soy un Software Engineer con foco en backend con Java y Spring Boot, diseño de APIs, bases de datos relacionales y frontend moderno con React. Perfil colaborativo, orientado a producto y con mentalidad de ownership. Tengo ingles fluido, nivel B2, el cual me permite comunicarme fluidamente.",
+        "description": "Software Engineer con experiencia en el desarrollo de herramientas internas de alto impacto con Python y Flet, procesando millones de registros y optimizando flujos de datos críticos en el sector contable de mi empresa actual. En el resto de tiempo, me enfoco en el desarrollo de productos escalables y de alto impacto, como 2 plataformas de Ecommerce con Nextjs, React, shadcn UI, backend en uno con Server Actions y en el otro con Spring Boot. Tengo ingles fluido, nivel B2, el cual me permite comunicarme fluidamente.",
         "nextSteps": {
             "title": "Próximos pasos",
-            "description": "Actualmente me encuentro cursando la carrera de Ingeniería en Informática, con aproximadamente un 60% de avance, combinando los desafíos académicos con experiencia profesional desarrollando software que genera impacto real en mi equipo de trabajo. Estoy enfocado en seguir profundizando mis conocimientos en Java y Spring Boot, con el objetivo de consolidar un perfil Full Stack orientado a sistemas robustos y escalables."
+            "description": "Actualmente me encuentro cursando la carrera de Ingeniería en Informática en la UADE, con aproximadamente un 60% de avance, combinando los desafíos académicos con experiencia profesional y proyectos personales. Actualmente estoy como solo dev en mi equipo y busco un entorno más colaborativo, dónde pueda aprender de mis pares y ellos aprender de mí."
         },
         "jobOpportunities": {
             "title": "Oportunidades Laborales",
-            "description": "En esta nueva etapa profesional, busco incorporarme a un equipo de ingeniería donde el trabajo colaborativo, el intercambio técnico y el aprendizaje entre pares sean parte del día a día. Me interesa trabajar en entornos remotos, idealmente con cierta flexibilidad horaria, que permitan un buen equilibrio entre trabajo, estudio y crecimiento profesional."
+            "description": "En esta nueva etapa profesional, busco incorporarme a un equipo de ingeniería donde el trabajo colaborativo, el intercambio técnico y el aprendizaje entre pares sean parte del día a día. Me interesa trabajar en entornos remotos, idealmente con cierta flexibilidad, que permitan un buen equilibrio entre trabajo, estudio y crecimiento profesional."
         }
     },
     "nav": {
@@ -62,7 +62,7 @@
                     "Integraciones con autenticación con Google, push notifications como app PWA e integración de API externa, como métodos de pago como Mercado Pago en Spring Boot.",
                     "Despliege del frontend en Vercel, con dominio perosnalizado para más confianza de los usuarios",
                     "Panel de administrador completo para la gestión autónoma del E-commerce y herramientas de analytics para medir el rendimiento de la tienda",
-                    "Este Ecommerce se presenta como solución a un negocio personal, ya que soy el dueño del emprendimiento de mates y me impulsó a escalar con integraciones de pagos, logueos, marketing y servicios de logística."
+                    "Este Ecommerce se presenta como solución a un negocio personal, ya que soy el dueño del emprendimiento de mates y me impulsó a escalar con integraciones de pagos, marketing y servicios de logística."
                 ]
             },
             {
@@ -72,14 +72,41 @@
                     "React",
                     "Next.js",
                     "Prisma",
-                    "Tailwind"
+                    "Tailwind",
+                    "Shadcn UI",
+                    "Neon",
+                    "Firebase Cloud Messaging",
+                    "Clerk",
+                    "Vercel"
                 ],
                 "description": [
-                    "Ecommerce Full stack hecho con Next js, el cual nos permite ofrecer una tienda con pagos integrados y logística integrada.",
-                    "Las ventajas de Next js nos permiten garantizar excelente SEO y no perder ventas e interacciones por retardo en la carga",
-                    "Integración con API externa cómo Mercado Pago en backend Next js, usuarios con Clerk (Google) y push notifications en PWA",
-                    "Panel de administrador completo para la gestión autónoma del E-commerce y herramientas de analytics para medir el rendimiento de la tienda",
-                    "Ownership y compromiso en la entrega de una solución robusta y escalable"
+                    "Ecommerce Full stack hecho con Next js, con pagos integrados y logística integrada.",
+                    "Garantizando SEO y excelentes tiempos de carga, para posicionar en buscadores y GEO (aparecer en recomendados de chats con IA)",
+                    "Integración con API externa cómo Mercado Pago con API Routes, usuarios con Clerk (Google) y push notifications en PWA",
+                    "Panel de administrador completo para la gestión autónoma del E-commerce y herramientas de analytics para medir el rendimiento de la tienda co Shadcn UI",
+                    "Ownership y compromiso en la entrega de una solución robusta y escalable",
+                    "Push Notifications en PWA usando FCM para notificar los nuevos pedidos a los administradores",
+                    "Despliege del frontend en Vercel, con dominio perosnalizado para más confianza de los usuarios",
+                    "Siguen habiendo mejoras, pero el desarrollo garantiza un producto ready to market, que va a ser la principal herramienta de crecimiento del emprendimiento"
+                ]
+            },
+            {
+                "title": "MGRC App",
+                "url": "https://mgrc.app/",
+                "technologies": [
+                    "React",
+                    "Next.js",
+                    "Prisma",
+                    "Tailwind",
+                    "Shadcn UI",
+                    "Firebase Cloud Messaging",
+                    "Neon"
+                ],
+                "description": [
+                    "Página web con integración de equipos, resultados y posiciones del Monte Grande Rugby Club, tanto Rugby, como Hockey",
+                    "Mi rol se desempeñó en tomar protagonismo en algunas features clave, como la visualización de resultados y posisicones de los 8 equipos de Hockey",
+                    "Trabajé colectivamente con otros colegas dónde pude crecer bastante en mi trabajo en equipo",
+                    "El proyecto sigue con features pendientes como integración de album de figuritas del club, juego en formato 'Gran DT' y escaneo de QR de acceso al club"
                 ]
             }
         ]
@@ -95,25 +122,28 @@
                     "Desarrollo y mantenimiento de herramientas internas en Python para el procesamiento de millones de registros, priorizando la corrección de datos, validaciones y resultados reproducibles.",
                     "Diseño de pipelines automatizados de ingestión, transformación y agregación de datos utilizando Pandas, Polars, DuckDB y SQL Server, integrando múltiples fuentes Excel encriptadas.",
                     "Implementación de soluciones end-to-end, desde el relevamiento de requerimientos con stakeholders hasta el deploy en entornos corporativos.",
-                    "Traducción de reglas de negocio en lógica técnica determinística y trazable, utilizada en procesos contables y reportes operativos críticos."
+                    "Traducción de reglas de negocio en lógica técnica determinística y trazable, utilizada en procesos contables y reportes operativos críticos.",
+                    "Trabajé como unico dev en la implementacón de varios proyectos y mejoras, como mejoras en Excel utilizando Macros y VBA, solucionando errores en dashboards Tableu legacy y mejorando e innovando con un producto que ahorraba tiempo del equipo operativo",
+                    "Esto me dió bastante soltura para relevar requerimientos del negocio, tener comunicaciones tanto con el nivel gerencial como el nivel operativo, y resolver los problemas de la mejor manera posible"
                 ]
             },
             {
-                "role": "Product Engineer | Independent Ventures",
+                "role": "Product Engineer / Full Stack Developer | Independent Ventures",
                 "company": "Personal",
                 "period": "",
                 "description": [
                     "Ownership de Producto E2E: Responsable del ciclo de vida completo (desde el concepto hasta la producción) de plataformas e-commerce reales (Puros Mates y Vela Vida), priorizando la conversión y la experiencia de usuario.",
-                    "Desarrollo Full-Stack con Next.js: Implementación de interfaces de alto rendimiento utilizando Next.js (App Router) y React, optimizando el renderizado del lado del servidor (SSR) para maximizar el SEO y alcanzar métricas de Core Web Vitals de excelencia.",
-                    "Integraciones de Negocio Críticas: Diseño y ejecución de flujos de checkout complejos, integrando pasarelas de pago (Mercado Pago) y servicios de logística local (Correo Argentino) para automatizar la operación comercial.",
+                    "Desarrollo Full-Stack con Next.js: Implementación de interfaces de alto rendimiento utilizando Next.js (App Router) y React, optimizando el renderizado del lado del servidor (SSR) para maximizar el SEO y alcanzar métricas de Core Web Vitals.",
+                    "Integraciones de Negocio Críticas: Diseño y ejecución de flujos de checkout complejos, integrando pasarelas de pago (Mercado Pago) y servicios de logística para automatizar la operación comercial.",
                     "Estrategia de Crecimiento y SEO: Gestión directa del posicionamiento orgánico y la arquitectura de información, logrando que productos físicos lleguen a usuarios reales de manera eficiente a través de la web.",
-                    "Visión de "Founder": Toma de decisiones sobre el stack tecnológico (Node.js, PostgreSQL, Clerk Auth) basadas en la velocidad de salida al mercado (Time-to-Market) y la estabilidad del producto final."
+                    "Visión de 'Founder': Toma de decisiones sobre el stack tecnológico basadas en la velocidad de salida al mercado (Time-to-Market) y la estabilidad del producto final.",
+                    "Foco en mejorar la experiencia de usuario en cada rincón de la plataforma, pudiendo hacer una compra en tan solo 4 clicks."
                 ]
             }
         ]
     },
     "contact": {
         "title": "Contacto",
-        "description": "Si estás construyendo un producto y buscás a alguien que pueda trabajar en backend, data y frontend, escribime."
+        "description": "Si estás construyendo un producto y buscás a alguien que pueda trabajar en backend, data y frontend, escribime. Si sos recruiter y queres consultar mis repositorios de Github de estos proyectos, contactame y te los comparto."
     }
 }

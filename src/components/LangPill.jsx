@@ -5,7 +5,7 @@ export default function LangPill() {
   const { lang, setLang } = useGlobal()
 
   return (
-    <div className={`pill small-pill segmented lang ${lang}`}>
+    <div className={`pill extrasmall-pill segmented lang ${lang}`}>
       <div
         className={`segment ${lang === "es" ? "active" : ""}`}
         onClick={() => setLang("es")}
