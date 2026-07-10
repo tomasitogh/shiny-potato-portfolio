@@ -1,7 +1,7 @@
 {
     "homePage": {
         "title": "Tomás Gonzalez Humphreys",
-        "description": "Software Engineer with experience building data-intensive and full-stack systems developing internal tools that process millions of financial records using Python, Pandas, SQL and DuckDB. I also build web applications with Next.js, React, Shadcn UI, Prisma, Spring Boot and relational databases, focusing on clean architecture, correctness, and maintainability. I'm looking for a team-based job with real ownership and a focus on product.",
+        "description": "Product-driven Software Engineer building complex applications from concept to production. I thrive in fast-paced environments, engineering full-stack products—from data-intensive automation pipelines to serverless e-commerce platforms—using Next.js, TypeScript, Python, and Node.js. Currently at Deloitte (Meta client), I own E2E automation pipelines that process millions of financial records, bridging the gap between non-technical stakeholders and scalable architectures to save 10+ hours monthly. I actively leverage AI tooling (Claude Code, ChatGPT) to accelerate delivery, focusing on building systems that are accurate, scalable, and user-centric.",
         "projectsButton": "View my projects",
         "cvButton": "Download CV"
     },

@@ -1,7 +1,7 @@
 {
     "homePage": {
         "title": "Tomás Gonzalez Humphreys",
-        "description": "Ingeniero de software con experiencia en sistemas full-stack y procesamiento de datos. Actualmente trabajo en Deloitte desarrollando herramientas internas que procesan millones de registros contables usando Python, Pandas, SQL y DuckDB. También construyo aplicaciones web con Next.js, React, Shadcn UI, Prisma, Spring Boot y bases de datos relacionales, enfocándome en arquitectura limpia, confiabilidad y mantenibilidad. Estoy buscando trabajar en equipos con ownership real y foco en producto.",
+        "description": "Software Engineer orientado al producto, construyendo aplicaciones complejas desde el concepto hasta producción. Me desenvuelvo bien en entornos de ritmo rápido, diseñando productos full-stack —desde pipelines de automatización de datos hasta e-commerce serverless— con Next.js, TypeScript, Python y Node.js. Actualmente en Deloitte (cliente Meta), soy dueño de pipelines E2E que procesan millones de registros financieros, conectando stakeholders no técnicos con arquitecturas escalables para ahorrar más de 10 horas mensuales. Uso activamente herramientas de IA (Claude Code, ChatGPT) para acelerar la entrega, enfocándome en construir sistemas precisos, escalables y centrados en el usuario.",
         "projectsButton": "Ver mis proyectos",
         "cvButton": "Descargar CV"
     },

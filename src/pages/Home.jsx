@@ -11,6 +11,7 @@ export default function Home() {
 
   return (
     <main className="page home-container">
+      <img src="/IMG_6018.jpg" alt="Profile" className="home-profile-img" />
       <h1 className="home-title">{t("homePage.title")}</h1>
       <p className="home-description">
         {t("homePage.description")}
